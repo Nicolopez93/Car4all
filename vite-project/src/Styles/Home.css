@@ -1,0 +1,7 @@
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
