@@ -12,6 +12,7 @@ import imgRam from '../assets/ram.png'
 import imgPorche from '../assets/porche.png'
 import imgToyotaHilux from '../assets/hilux.png'
 import '../Styles/Card.css'
+import { Link } from 'react-router-dom'
 const Card = () => {  
   const autos = [
     {
@@ -123,17 +124,19 @@ const Card = () => {
       precio: 65,
     },
   ];
+  const handleClick = () => {
+  };
     return (
         <div className="autos-container">
         {autos.map(auto => (
-            <div key={auto.id} className="auto-card">
+            <Link to={`/detalle/${auto.id}`} key={auto.id} onClick={handleClick} className="auto-card">
                 <img src={auto.imgUrl} alt={auto.nombre} className="auto-image" />
                 <p className="auto-name">Nombre: {auto.nombre}</p>
                 <p className="auto-doors">Puertas: {auto.puertas}</p>
                 <p className="auto-luggage">Valijas: {auto.valijas}</p>
                 <p className="auto-people">Personas: {auto.personas}</p>
                 <p className="auto-price">Precio: ${auto.precio}</p>
-            </div>
+            </Link>
         ))}
     </div>
       )         
