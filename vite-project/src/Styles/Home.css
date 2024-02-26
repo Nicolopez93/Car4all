@@ -1,7 +1,10 @@
-.contenedor-cards {
+.autos-container {
     display: grid;
     grid-template-columns: repeat(2, 5fr);
     grid-gap: 16px;
     justify-content: center;
     align-items: center;
-}
+    align-self: center;
+    align-content: center;
+    padding-left: 15%;
+}   
