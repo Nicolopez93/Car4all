@@ -48,3 +48,9 @@
 .login-container button[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+    .login-container {
+      max-width: 90%;
+    }
+  }

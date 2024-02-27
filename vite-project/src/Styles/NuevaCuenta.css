@@ -45,3 +45,8 @@
     background-color: #0056b3;
   }
   
+  @media (max-width: 768px) {
+    .crear-cuenta-container {
+      max-width: 90%;
+    }
+  }
