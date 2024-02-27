@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "../src/assets/toyota.png",
+    "nombre": "Toyota Corolla",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 50
+  },
+  {
+    "id": 2,
+    "imgUrl": "../src/assets/cronos.png",
+    "nombre": "Fiat Cronos",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 55
+  },
+  {
+    "id": 3,
+    "imgUrl": "../src/assets/ford.png",
+    "nombre": "Ford F100",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 45
+  },
+  {
+    "id": 4,
+    "imgUrl": "../src/assets/porche.png",
+    "nombre": "Porche 120",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 60
+  },
+  {
+    "id": 5,
+    "imgUrl": "../src/assets/chevrolet.png",
+    "nombre": "Chevrolet Cruze",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 52
+  },
+  {
+    "id": 6,
+    "imgUrl": "../src/assets/hilux.png",
+    "nombre": "Toyota Hilux",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 65
+  },
+  {
+    "id": 7,
+    "imgUrl": "../src/assets/hyundai2.png",
+    "nombre": "Hyundai Elantra",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 49
+  },
+  {
+    "id": 8,
+    "imgUrl": "../src/assets/mercedes.png",
+    "nombre": "Mercedes Benz",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 46
+  },
+  {
+    "id": 9,
+    "imgUrl": "../src/assets/peugeot.png",
+    "nombre": "Peugeot 208",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 47
+  },
+  {
+    "id": 10,
+    "imgUrl": "../src/assets/ram.png",
+    "nombre": "Ram 1500",
+    "puertas": 4,
+    "valijas": 2,
+    "personas": 5,
+    "precio": 53
+  }
+]
+

@@ -13,7 +13,7 @@ import '../Styles/Card.css'
 import { Link } from 'react-router-dom'
 
 const Card = () => {  
-  const autos = [
+   const autos = [
     {
       id: 1,
       imgUrl: imgToyota,

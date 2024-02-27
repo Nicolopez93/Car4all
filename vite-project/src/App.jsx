@@ -6,10 +6,13 @@ import Administrador from './Routes/Administrador';
 import IniciarSesion from './Routes/IniciarSesion';
 import CrearCuenta from './Routes/CrearCuenta';
 import Detalle from './Routes/Detalle';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 function App() {
   return (
     <Router>
           <React.Fragment>
+            <Navbar/>
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/home" element={<Home/>} />
@@ -18,6 +21,7 @@ function App() {
               <Route path='/crearCuenta' element={<CrearCuenta/>}/>
               <Route path="/detalle/:id" element={<Detalle/>} />
             </Routes>
+            <Footer/>
             </React.Fragment>
     </Router>
   )

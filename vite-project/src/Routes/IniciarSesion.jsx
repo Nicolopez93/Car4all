@@ -1,16 +1,13 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-import Login from '../Components/Login'
+import React from "react";
+
+import Login from "../Components/Login";
 
 const IniciarSesion = () => {
   return (
     <div>
-      <Navbar/>
-      <Login/>
-      <Footer/>
+      <Login />
     </div>
-  )
-}
+  );
+};
 
-export default IniciarSesion
+export default IniciarSesion;
