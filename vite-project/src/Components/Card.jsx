@@ -2,9 +2,7 @@ import React from 'react'
 import imgToyota from '../assets/toyota.png'
 import imgFiat from '../assets/cronos.png'
 import imgFord from '../assets/ford.png'
-import imgHyundai from '../assets/hyundai.png'
 import imgChevrolet from '../assets/chevrolet.png'
-import imgNissan from '../assets/nissa.png'
 import imgHyundai2 from '../assets/hyundai2.png'
 import imgMercedes from '../assets/mercedes.png'
 import imgPeugeot from '../assets/peugeot.png'
@@ -13,6 +11,7 @@ import imgPorche from '../assets/porche.png'
 import imgToyotaHilux from '../assets/hilux.png'
 import '../Styles/Card.css'
 import { Link } from 'react-router-dom'
+
 const Card = () => {  
   const autos = [
     {
@@ -42,15 +41,15 @@ const Card = () => {
       personas: 5,
       precio: 45,
     },
-    // {
-    //   id: 4,
-    //   imgUrl: imgHyundai,
-    //   nombre: 'Hyundai',
-    //   puertas: 4,
-    //   valijas: 2,
-    //   personas: 5,
-    //   precio: 48,
-    // },
+    {
+      id: 4,
+      imgUrl: imgPorche,
+      nombre: 'Porche 120',
+      puertas: 4,
+      valijas: 2,
+      personas: 5,
+      precio: 60,
+    },
     {
       id: 5,
       imgUrl: imgChevrolet,
@@ -60,15 +59,15 @@ const Card = () => {
       personas: 5,
       precio: 52,
     },
-    // {
-    //   id: 6,
-    //   imgUrl: imgNissan,
-    //   nombre: 'Nissan Frontier',
-    //   puertas: 4,
-    //   valijas: 2,
-    //   personas: 5,
-    //   precio: 58,
-    // },
+    {
+      id: 6,
+      imgUrl: imgToyotaHilux,
+      nombre: 'Toyota Hilux',
+      puertas: 4,
+      valijas: 2,
+      personas: 5,
+      precio: 65,
+    },
     {
       id: 7,
       imgUrl: imgHyundai2,
@@ -104,24 +103,6 @@ const Card = () => {
       valijas: 2,
       personas: 5,
       precio: 53,
-    },
-    {
-      id: 11,
-      imgUrl: imgPorche,
-      nombre: 'Porche 120',
-      puertas: 4,
-      valijas: 2,
-      personas: 5,
-      precio: 60,
-    },
-    {
-      id: 12,
-      imgUrl: imgToyotaHilux,
-      nombre: 'Toyota Hilux',
-      puertas: 4,
-      valijas: 2,
-      personas: 5,
-      precio: 65,
     },
   ];
   const handleClick = () => {
