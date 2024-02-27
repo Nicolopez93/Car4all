@@ -4,7 +4,7 @@ import '../Styles/Buscador.css'
 const Buscador = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
+  setSearchTerm( event.target.value)
   };
   const handleSearch = () => {
     // Llamar a la función de búsqueda pasando el término de búsqueda

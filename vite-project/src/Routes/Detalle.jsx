@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import {Link, useParams } from "react-router-dom";
 import "../styles/CardDetalle.css";
 
+
 const Detalle = () => {
   const { id } = useParams();
   const [auto, setAuto] = useState(null);
