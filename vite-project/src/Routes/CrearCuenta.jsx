@@ -1,16 +1,12 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-import NuevaCuenta from '../Components/NuevaCuenta'
+import React from "react";
+import NuevaCuenta from "../Components/NuevaCuenta";
 
 const CrearCuenta = () => {
   return (
     <div>
-      <Navbar/>
-      <NuevaCuenta/>
-      <Footer/>
+      <NuevaCuenta />
     </div>
-  )
-}
+  );
+};
 
-export default CrearCuenta
+export default CrearCuenta;
