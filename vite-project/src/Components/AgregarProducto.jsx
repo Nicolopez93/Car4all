@@ -7,7 +7,7 @@ const AgregarProducto = () => {
   const [personas, setPersonas] = useState(0);
   const [precio, setPrecio] = useState(0);
   const [productImage, setProductImage] = useState(null);
-  const [idCount, setIdCount] = useState(1);
+  const [idCount, setIdCount] = useState(11);
   
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -25,7 +25,7 @@ const AgregarProducto = () => {
     try {
       // Obtener los datos actuales del JSON
       const response = await fetch('/autos.json');
-      const data = await response.json();
+      const data = JSON.stringify(response);
 
       // Agregar el nuevo producto a los datos existentes
       const newData = [...data, newProduct];

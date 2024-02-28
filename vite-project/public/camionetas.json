@@ -1,0 +1,38 @@
+[
+        {
+            "id": 10,
+            "imgUrl": "../src/assets/ram.png",
+            "nombre": "Ram 1500",
+            "puertas": 4,
+            "valijas": 2,
+            "personas": 5,
+            "precio": 53
+          }, 
+         {
+            "id": 6,
+            "imgUrl": "../src/assets/hilux.png",
+            "nombre": "Toyota Hilux",
+            "puertas": 4,
+            "valijas": 2,
+            "personas": 5,
+            "precio": 65
+          },
+          {
+            "id": 3,
+            "imgUrl": "../src/assets/ford.png",
+            "nombre": "Ford F100",
+            "puertas": 4,
+            "valijas": 2,
+            "personas": 5,
+            "precio": 45
+          },
+          {
+            "id": 7,
+            "imgUrl": "../src/assets/hyundai2.png",
+            "nombre": "Hyundai Elantra",
+            "puertas": 4,
+            "valijas": 2,
+            "personas": 5,
+            "precio": 49
+          }
+]

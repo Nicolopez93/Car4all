@@ -28,7 +28,7 @@ const Detalle = () => {
         className="volver-btn"
         to="/home">Volver
       </Link>
-    <div className="detalle-container">
+      <div className="detalle-container">
       <div className="card-container">
         <img src={auto?.imgUrl} alt={auto?.nombre} />
         <h2>{auto?.nombre}</h2>
